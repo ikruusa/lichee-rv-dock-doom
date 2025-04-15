@@ -27,6 +27,6 @@ You can save and run Doom from setup or exit and then:
 ```
 # chocolate-doom
 ```
-There are also 'chocolate-heretic' and 'chocolate-hexen' but these are not playeable for now.
+There are also 'chocolate-heretic' and 'chocolate-hexen' but these are not playable for now.
 Enjoy!
 
