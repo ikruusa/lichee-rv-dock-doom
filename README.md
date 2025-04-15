@@ -1,13 +1,14 @@
 # Let's run Doom on Lichee RV Dock!
 
-Unpacked system is ca. 120MB. Login as root:
+This is a custom `buildroot` based system with `SDL2`, `DirectFB` and `chocolate-doom`. Unpacked system is ca. 120MB. Login as root:
 
 ```
 u:root
 pwd: licheerv
 ```
 
-There are DirectFB demos also installed. So you can try run (press 'q' to exit):
+Wifi is also activated, modify `/etc/wpa_supplicant.conf` as needed (use `nano` for that). `dropbear` server is installed so you can login with `ssh`.
+There are DirectFB demos installed also. You can try those out, eg. (press 'q' to exit):
 
 ```
 # df_andi
@@ -17,7 +18,7 @@ or
 ```
 # df_neo
 ```
-But then there is Doom (with preinstalled original WAD). Hopefully its OK for everybody...
+But then there is the Doom (with preinstalled original WAD). Hopefully its OK for everybody...
 To setup everything:
 ```
 # chocolate-doom-setup
